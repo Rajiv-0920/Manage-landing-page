@@ -1,5 +1,5 @@
 # Frontend Mentor - Manage landing page
-Live Demo Link: https://rajiv-0920/Mangae-landing-page
+Live Demo Link: https://rajiv-0920.github.io/Manage-landing-page/
 
 ![Design preview for the Manage landing page coding challenge](./design/desktop-preview.jpg)
 
