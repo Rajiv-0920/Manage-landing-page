@@ -30,7 +30,7 @@ body {
   position: relative;
   text-align: center;
   background-image: url("./images/bg-tablet-pattern.svg");
-  background-size: 400px;
+  background-size: 500px;
   background-position: top -50px right -50px;
   background-repeat: no-repeat;
 }
@@ -105,7 +105,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -172,9 +171,6 @@ header {
 @media (min-width: 768px) {
   header {
     padding: 2.5em 0;
-    background-size: 500px;
-    background-position: top -50px right -50px;
-    background-repeat: no-repeat;
   }
   .overlay {
     display: none;
@@ -325,9 +321,11 @@ header {
 
 @media (min-width: 768px) {
   body {
-    background-image: url("./images/bg-tablet-pattern.svg");
+    background-image: url("./images/bg-tablet-pattern.svg"),
+      url("./images/bg-tablet-pattern.svg");
+    background-size: 700px, 550px;
     background-repeat: no-repeat;
-    background-position: left -400px center;
+    background-position: left -400px center, top -50px right -50px;
   }
   .different-grid {
     grid-template-columns: 45% 50%;
@@ -344,6 +342,9 @@ header {
   }
 }
 @media (min-width: 992px) {
+  body {
+    background-size: 700px, 650px;
+  }
   .different-grid {
     grid-template-columns: 40% 50%;
   }
