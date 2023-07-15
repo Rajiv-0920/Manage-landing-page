@@ -29,6 +29,10 @@ body {
   font-size: 1.6rem;
   position: relative;
   text-align: center;
+  background-image: url("./images/bg-tablet-pattern.svg");
+  background-size: 400px;
+  background-position: top -50px right -50px;
+  background-repeat: no-repeat;
 }
 a {
   text-decoration: none;
@@ -95,10 +99,6 @@ img {
 header {
   padding: 1.5em 0;
   position: relative;
-  background-image: url("./images/bg-tablet-pattern.svg");
-  background-size: 500px;
-  background-position: top -50px right -50px;
-  background-repeat: no-repeat;
 }
 .header-flex {
   display: flex;
@@ -112,11 +112,7 @@ header {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    hsla(233, 12%, 13%, 0.055),
-    hsla(233, 12%, 13%, 0.416)
-  );
+  background: linear-gradient(180deg, #15203338, #11182b);
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
@@ -125,10 +121,12 @@ header {
   visibility: visible;
   opacity: 1;
 }
-
+.manage-logo {
+  z-index: 3;
+}
 .navigation {
   position: absolute;
-  top: 10%;
+  top: 100%;
   left: 50%;
   width: 90%;
   transform: translate(-50%);
