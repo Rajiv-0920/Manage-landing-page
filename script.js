@@ -1,19 +1,16 @@
 const navigation = document.querySelector(".navigation");
-const hamburgerBtn = document.querySelector(".hamburger-btn");
-const closeBtn = document.querySelector(".close-btn");
+const hamburgerbar = document.querySelector(".hamburger-bar");
 const overlay = document.querySelector(".overlay");
 
-hamburgerBtn.addEventListener("click", () => {
-  hamburgerBtn.classList.toggle("hide");
-  navigation.classList.toggle("show");
-  closeBtn.classList.toggle("show");
-  overlay.classList.toggle("show");
+overlay.addEventListener("click", () => {
+  hamburgerbar.classList.remove("active");
+  navigation.classList.remove("show");
+  overlay.classList.remove("show");
 });
 
-closeBtn.addEventListener("click", () => {
-  hamburgerBtn.classList.toggle("hide");
+hamburgerbar.addEventListener("click", () => {
+  hamburgerbar.classList.toggle("active");
   navigation.classList.toggle("show");
-  closeBtn.classList.toggle("show");
   overlay.classList.toggle("show");
 });
 

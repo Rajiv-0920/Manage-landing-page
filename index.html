@@ -24,21 +24,38 @@
     <div class="overlay"></div>
     <header>
       <div class="container header-flex">
-        <div class="manage-logo">
+        <a class="manage-logo">
           <img src="./images/logo.svg" alt="Manage LOGO" />
-        </div>
-        <!-- Company Logo end -->
+        </a>
+        <!-- Company Logo   end -->
         <div class="menu">
-          <img
-            src="./images/icon-hamburger.svg"
-            class="hamburger-btn"
-            alt="Hamburger Icon"
-          />
-          <img
-            src="./images/icon-close.svg"
-            class="close-btn"
-            alt="Close Icon"
-          />
+          <svg width="40px" viewBox="0 0 100 100" class="hamburger-bar">
+            <rect
+              class="top"
+              height="5px"
+              width="80"
+              x="10"
+              y="25"
+              rx="2"
+              rx="2"
+            ></rect>
+            <rect
+              class="middle"
+              height="5px"
+              width="80"
+              x="10"
+              y="45"
+              rx="2"
+            ></rect>
+            <rect
+              class="bottom"
+              height="5px"
+              width="80"
+              x="10"
+              y="65"
+              rx="2"
+            ></rect>
+          </svg>
         </div>
         <!-- Menu end -->
         <nav class="navigation">
@@ -54,158 +71,162 @@
       </div>
       <!-- Container end -->
     </header>
-    <section class="hero-section">
-      <div class="container hero-flex">
-        <div class="description">
-          <h1 class="title large-title">
-            Bring everyone together to build better products.
-          </h1>
-          <p class="text hero-text">
-            Manage makes it simple for software teams to plan day-to-day tasks
-            while keeping the larger team goals in view.
-          </p>
-          <button class="btn started-btn hero-started-btn">Get Started</button>
-        </div>
-        <!-- Description Section end -->
-        <figure class="hero-img">
-          <img src="./images/illustration-intro.svg" alt="" />
-        </figure>
-      </div>
-      <!--Container end -->
-    </section>
-    <!--Hero Section end -->
     <!-- Header end -->
-
-    <section class="different-section">
-      <div class="container different-grid">
-        <div class="different-question">
-          <h2 class="title medium-title">What’s different about Manage?</h2>
-          <p class="text small-text">
-            Manage provides all the functionality your team needs, without the
-            complexity. Our software is tailor-made for modern digital product
-            teams.
-          </p>
+    <main>
+      <section class="hero-section">
+        <div class="container hero-flex">
+          <div class="description">
+            <h1 class="title large-title">
+              Bring everyone together to build better products.
+            </h1>
+            <p class="text hero-text">
+              Manage makes it simple for software teams to plan day-to-day tasks
+              while keeping the larger team goals in view.
+            </p>
+            <button class="btn started-btn hero-started-btn">
+              Get Started
+            </button>
+          </div>
+          <!-- Description Section end -->
+          <figure class="hero-img">
+            <img src="./images/illustration-intro.svg" alt="" />
+          </figure>
         </div>
-        <div class="features">
-          <div class="features-item">
-            <div class="feature-title">
-              <div class="number">01</div>
-              <h3 class="title">Track company-wide progress</h3>
-            </div>
+        <!--Container end -->
+      </section>
+      <!--Hero Section end -->
+
+      <section class="different-section">
+        <div class="container different-grid">
+          <div class="different-question">
+            <h2 class="title medium-title">What’s different about Manage?</h2>
             <p class="text small-text">
-              See how your day-to-day tasks fit into the wider vision. Go from
-              tracking progress at the milestone level all the way done to the
-              smallest of details. Never lose sight of the bigger picture again.
+              Manage provides all the functionality your team needs, without the
+              complexity. Our software is tailor-made for modern digital product
+              teams.
             </p>
           </div>
-          <!-- item End  -->
-          <div class="features-item">
-            <div class="feature-title">
-              <div class="number">02</div>
-              <h3 class="title">Advanced built-in reports</h3>
+          <div class="features">
+            <div class="features-item">
+              <div class="feature-title">
+                <div class="number">01</div>
+                <h3 class="title">Track company-wide progress</h3>
+              </div>
+              <p class="text small-text">
+                See how your day-to-day tasks fit into the wider vision. Go from
+                tracking progress at the milestone level all the way done to the
+                smallest of details. Never lose sight of the bigger picture
+                again.
+              </p>
             </div>
-            <p class="text small-text">
-              Set internal delivery estimates and track progress toward company
-              goals. Our customisable dashboard helps you build out the reports
-              you need to keep key stakeholders informed.
-            </p>
+            <!-- item End  -->
+            <div class="features-item">
+              <div class="feature-title">
+                <div class="number">02</div>
+                <h3 class="title">Advanced built-in reports</h3>
+              </div>
+              <p class="text small-text">
+                Set internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakeholders informed.
+              </p>
+            </div>
+            <!-- item End  -->
+            <div class="features-item">
+              <div class="feature-title">
+                <div class="number">03</div>
+                <h3 class="title">Everything you need in one place</h3>
+              </div>
+              <p class="text">
+                Stop jumping from one service to another to communicate, store
+                files, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution.
+              </p>
+            </div>
+            <!-- item End  -->
           </div>
-          <!-- item End  -->
-          <div class="features-item">
-            <div class="feature-title">
-              <div class="number">03</div>
-              <h3 class="title">Everything you need in one place</h3>
-            </div>
+          <!-- Features End  -->
+        </div>
+        <!-- Container End  -->
+      </section>
+      <section class="testimonials">
+        <h2 class="title medium-title testimonials-title">What they’ve said</h2>
+        <div class="testimonials-container">
+          <div class="user">
+            <img
+              src="./images/avatar-anisha.png"
+              alt="User Image"
+              class="user-img"
+            />
+            <p class="user-name title small-title">Anisha Li</p>
             <p class="text">
-              Stop jumping from one service to another to communicate, store
-              files, track tasks and share documents. Manage offers an
-              all-in-one team productivity solution.
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
             </p>
           </div>
-          <!-- item End  -->
+          <!-- User End  -->
+          <div class="user">
+            <img
+              src="./images/avatar-ali.png"
+              alt="User Image"
+              class="user-img"
+            />
+            <p class="user-name title small-title">Ali Bravo</p>
+            <p class="text">
+              “We have been able to cancel so many other subscriptions since
+              using Manage. There is no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </div>
+          <!-- User End  -->
+          <div class="user">
+            <img
+              src="./images/avatar-richard.png"
+              alt="User Image"
+              class="user-img"
+            />
+            <p class="user-name title small-title">Richard Watts</p>
+            <p class="text">
+              “Manage allows us to provide structure and process. It keeps us
+              organized and focused. I can’t stop recommending them to everyone
+              I talk to!”
+            </p>
+          </div>
+          <!-- User End  -->
+          <div class="user">
+            <img
+              src="./images/avatar-shanai.png"
+              alt="User Image"
+              class="user-img"
+            />
+            <p class="user-name title small-title">Shanai Gough</p>
+            <p class="text">
+              “Their software allows us to track, manage and collaborate on our
+              projects from anywhere. It keeps the whole team in-sync without
+              being intrusive.”
+            </p>
+          </div>
+          <!-- User End  -->
         </div>
-        <!-- Features End  -->
-      </div>
-      <!-- Container End  -->
-    </section>
-
-    <section class="testimonials">
-      <h2 class="title medium-title testimonials-title">What they’ve said</h2>
-      <div class="testimonials-container">
-        <div class="user">
-          <img
-            src="./images/avatar-anisha.png"
-            alt="User Image"
-            class="user-img"
-          />
-          <p class="user-name title small-title">Anisha Li</p>
-          <p class="text">
-            “Manage has supercharged our team’s workflow. The ability to
-            maintain visibility on larger milestones at all times keeps everyone
-            motivated.”
-          </p>
+        <!-- Testimonials Container End  -->
+        <div class="scroll-btns">
+          <div class="circle-btn active"></div>
+          <div class="circle-btn"></div>
+          <div class="circle-btn"></div>
+          <div class="circle-btn"></div>
         </div>
-        <!-- User End  -->
-        <div class="user">
-          <img
-            src="./images/avatar-ali.png"
-            alt="User Image"
-            class="user-img"
-          />
-          <p class="user-name title small-title">Ali Bravo</p>
-          <p class="text">
-            “We have been able to cancel so many other subscriptions since using
-            Manage. There is no more cross-channel confusion and everyone is
-            much more focused.”
-          </p>
+        <button class="btn started-btn testimonials-btn">Get Started</button>
+      </section>
+      <section class="simplify-section">
+        <div class="container simplify-grid">
+          <h1 class="title large-title simplify-title">
+            Simplify how your team works today.
+          </h1>
+          <button class="btn started-btn simplify-btn">Get Started</button>
         </div>
-        <!-- User End  -->
-        <div class="user">
-          <img
-            src="./images/avatar-richard.png"
-            alt="User Image"
-            class="user-img"
-          />
-          <p class="user-name title small-title">Richard Watts</p>
-          <p class="text">
-            “Manage allows us to provide structure and process. It keeps us
-            organized and focused. I can’t stop recommending them to everyone I
-            talk to!”
-          </p>
-        </div>
-        <!-- User End  -->
-        <div class="user">
-          <img
-            src="./images/avatar-shanai.png"
-            alt="User Image"
-            class="user-img"
-          />
-          <p class="user-name title small-title">Shanai Gough</p>
-          <p class="text">
-            “Their software allows us to track, manage and collaborate on our
-            projects from anywhere. It keeps the whole team in-sync without
-            being intrusive.”
-          </p>
-        </div>
-        <!-- User End  -->
-      </div>
-      <!-- Testimonials Container End  -->
-      <div class="scroll-btns">
-        <div class="circle-btn active"></div>
-        <div class="circle-btn"></div>
-        <div class="circle-btn"></div>
-        <div class="circle-btn"></div>
-      </div>
-      <button class="btn started-btn testimonials-btn">Get Started</button>
-    </section>
-    <section class="simplify-section">
-      <div class="container simplify-grid">
-        <h1 class="title large-title simplify-title">
-          Simplify how your team works today.
-        </h1>
-        <button class="btn started-btn simplify-btn">Get Started</button>
-      </div>
-    </section>
+      </section>
+    </main>
     <footer>
       <div class="container footer-container">
         <div class="logo">
